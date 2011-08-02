@@ -1,6 +1,6 @@
 ﻿.dp-highlighter
 {
-	font-family: "Consolas", "Courier New", Courier, mono, serif;
+	font-family: "Consolas", "Courier New", Courier, mono, serif !important;
 	font-size: 12px;
 	background-color: #E7E5DC;
 	width: 99%;
@@ -183,3 +183,8 @@
 .dp-highlighter .string { color: blue; background-color: inherit; }
 .dp-highlighter .keyword { color: #069; font-weight: bold; background-color: inherit; }
 .dp-highlighter .preprocessor { color: gray; background-color: inherit; }
+
+.dp-highlighter span
+{
+	font-family: "Consolas", "Courier New", Courier, mono, serif !important;
+}
